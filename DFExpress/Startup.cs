@@ -30,5 +30,9 @@ namespace DFExpress
                 await context.Response.WriteAsync("Hello World!");
             });
         }
+        public void Method1()
+        {
+            Console.WriteLine("Method1");
+        }
     }
 }
