@@ -32,11 +32,11 @@ namespace DFExpress
         }
         public void Method1()
         {
-            Console.WriteLine("Method1");
+            Console.WriteLine("Method1-Changed");
         }
         public void Method2()
         {
             Console.WriteLine("Method2");
-        }
+        }       
     }
 }
